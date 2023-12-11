@@ -1,10 +1,13 @@
+<!-- {% load static %} -->
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
     <script src="https://kit.fontawesome.com/32d9f1bff7.js" crossorigin="anonymous"></script>
     
 </head>
@@ -112,6 +115,6 @@
             </ul>
             <p>&copy;2023 Patrick Nderu | All Rights Reserved</p>
     </footer>
-    <script src="scripts.js"></script>
+    <script src="{% static 'scripts.js' %}"></script>
 </body>
 </html>
