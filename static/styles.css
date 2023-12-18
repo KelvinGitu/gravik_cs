@@ -720,33 +720,41 @@
 
 
   /* About Page Styling*/
-  .about-container {
-    max-width: 960px;
-    margin: 0 auto;
+  
+  .container-about {
+    width: 80%;
+    margin: auto;
+    max-width: 1200px;
   }
-  .heading-1{
-    margin-top: 10%;
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
   }
-
-  .heading {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: 2rem;
+  .program-about {
+    margin-bottom: 2em;
   }
-
-  .paragraph {
-    font-size: 1.2rem;
-    line-height: 1.5rem;
+  .program-about h2 {
+    color: #008000;
   }
-
-  @media screen and (max-width: 768px) {
-    .heading {
-      font-size: 1.5rem;
+  .program-about p {
+    color: #666;
+  }
+  .button-about {
+    display: inline-block;
+    padding: 1em 2em;
+    background: #008000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1em 0;
+  }
+  @media (max-width: 768px) {
+    .container-about {
+      width: 95%;
     }
-
-    .paragraph {
-      font-size: 1rem;
-      line-height: 1.4rem;
+    .button-about {
+      padding: .5em 1em;
     }
   }
    /* About Page Styling*/
