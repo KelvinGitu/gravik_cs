@@ -281,7 +281,7 @@
   .footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: #00040a;
     height: 300px;
     padding: 20px 50px;
     display: flex;
@@ -628,6 +628,7 @@
     transform: translate(181%, 11%);
     opacity: 0.2;
   }
+  
   
   @media (max-width: 850px) {
     .form {
