@@ -135,6 +135,10 @@
             flex: 1;
             padding: 20px;
         }
+       .about-section h2{
+        font-size: 32px;
+        
+       }
         .button-link{
             padding: 0.6rem 1.3rem;
             background-color: green;
@@ -175,16 +179,17 @@
               max-width: 38%;
               height: auto; 
               border-radius: 8px;
+              padding: 50px;
           }
 
             .about-section .text {
                 flex: 1; 
+                padding: 130px;
+                
             }
         }
 
  /* About Us */
-
-
 
 
 
@@ -263,7 +268,7 @@ p {
 
 .description {
     font-size: 14px;
-    color: #770b0b;
+    color: #080808;
     max-width: 200px;
     margin: 10px auto;
 }
@@ -779,7 +784,7 @@ p {
   }
   header {
     background: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 1em 0;
   }
   .program-about {
@@ -789,7 +794,7 @@ p {
     color: #008000;
   }
   .program-about p {
-    color: #666;
+    color: #140101;
   }
   .button-about {
     display: inline-block;
