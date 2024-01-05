@@ -23,7 +23,7 @@ const peopleCounter = document.getElementById('peopleCounter');
 const projectsCounter = document.getElementById('projectsCounter');
 const wasteCounter = document.getElementById('wasteCounter');
 
-animateValue(peopleCounter, 0, 1000, 5000); // Change these numbers as needed
-animateValue(projectsCounter, 0, 50, 5000); // Change these numbers as needed
-animateValue(wasteCounter, 0, 2000, 5000); // Change these numbers as needed
+animateValue(peopleCounter, 0, 1000, 5000); 
+animateValue(projectsCounter, 0, 50, 5000);
+animateValue(wasteCounter, 0, 2000, 5000); 
 
