@@ -48,7 +48,7 @@
 }
 
 .menu li a:hover {
-  color: #00bcd4;
+  color: #53eb53;
 }
 
 @media (max-width: 768px) {
@@ -134,6 +134,13 @@
             flex: 1;
             padding: 20px;
         }
+        .text h2 {
+          border-bottom: 5px solid #0fda1a; 
+          display: inline-block; 
+          padding-bottom: 5px;
+          margin-bottom: 10px;
+        }
+        
        .about-section h2{
         font-size: 32px;
         
@@ -403,6 +410,9 @@ p {
   .menu__link:hover {
     opacity: 1;
   }
+ 
+
+
   
   .footer p {
     color: #fff;
