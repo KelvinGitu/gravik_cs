@@ -42,7 +42,7 @@
 
 .menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #0e0b0b;
   font-weight: bold;
   transition: color 0.3s;
 }
@@ -59,7 +59,7 @@
   .menu {
       display: none;
       flex-direction: column;
-      background-color: black;
+      background-color: white;
       position: absolute;
       top: 60px;
       right: 0;
