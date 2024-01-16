@@ -25,5 +25,26 @@ const wasteCounter = document.getElementById('wasteCounter');
 
 animateValue(peopleCounter, 0, 1000, 5000); 
 animateValue(projectsCounter, 0, 50, 5000);
-animateValue(wasteCounter, 0, 2000, 5000); 
+animateValue(wasteCounter, 0, 2000, 5000);
 
+function typeEffect(element, speed) {
+    let text = element.innerHTML;
+    element.innerHTML = "";
+    
+    let i = 0;
+    function typing() {
+      if (i < text.length) {
+        element.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(typing, speed);
+      }
+    }
+    setTimeout(typing, speed);
+  }
+  
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    const paragraphs = document.querySelectorAll('.about-section .text p');
+    paragraphs.forEach(p => typeEffect(p, 50));
+  });
+  
