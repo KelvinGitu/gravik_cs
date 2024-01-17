@@ -1,10 +1,12 @@
-document.getElementById("menu-toggle").addEventListener("click", function () {
-    const menu = document.getElementById("menu");
-    const menuToggle = document.getElementById("menu-toggle");
+// Toggle
+const menuToggle = document.querySelector('.menu-toggle input');
+const nav = document.querySelector('nav ul');
 
-    menu.classList.toggle("active");
-    menuToggle.classList.toggle("active");
+// Event
+menuToggle.addEventListener('click', () => {
+  nav.classList.toggle('slide');
 });
+
 
 function animateValue(obj, start, end, duration) {
     let startTimestamp = null;
@@ -45,6 +47,6 @@ function typeEffect(element, speed) {
   
   document.addEventListener('DOMContentLoaded', () => {
     const paragraphs = document.querySelectorAll('.about-section .text p');
-    paragraphs.forEach(p => typeEffect(p, 50));
+    paragraphs.forEach(p => typeEffect(p, 20));
   });
   
