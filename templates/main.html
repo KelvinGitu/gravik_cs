@@ -10,20 +10,26 @@
     <script src="https://kit.fontawesome.com/32d9f1bff7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <div class="navbar">
-    <div class="menu-toggle" id="menu-toggle">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
+  <nav>
+    <div>
+       <img src="{% static 'assets/logo.png' %}" alt="logo"> 
     </div>
-    <ul class="menu" id="menu">
+
+    <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/about">About</a></li>
-        <li><a href="/contact">Contact Us</a></li>
+        <li><a href="/contact">Contact</a></li>
         <li><a href="https://www.mchanga.africa/fundraiser/80943#donatenow">Donate</a></li>
-
+        <li><a href="/about">Programs</a></li>
     </ul>
-</div>
+
+    <div class="menu-toggle">
+        <input type="checkbox">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</nav>
 <div class="landing-page">
   <div class="elements-container">
     <div class="header">
